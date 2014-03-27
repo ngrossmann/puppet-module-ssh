@@ -32,7 +32,7 @@ class ssh (
   $sshd_config_print_motd           = 'yes',
   $sshd_config_use_dns              = 'USE_DEFAULTS',
   $sshd_config_banner               = 'none',
-  $sshd_config_host_key				= '/etc/ssh/ssh_host_rsa_key'
+  $sshd_config_host_key				= '/etc/ssh/ssh_host_rsa_key',
   $sshd_banner_content              = undef,
   $sshd_banner_owner                = 'root',
   $sshd_banner_group                = 'root',
